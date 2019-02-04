@@ -20,14 +20,21 @@ html {
 }
 
 .img-flex {
-  display: block;
   width: 100%;
+  display: block;
 }
 
 .banner {
-
+  position: relative;
+  display: block;
+  max-height: 24em;
+  overflow: hidden;
 }
 
 .banner-content {
-
+  position: absolute;
+  overflow: hidden;
+  color: #fff;
+  bottom: .3em;
+  left: .1em;
 }
